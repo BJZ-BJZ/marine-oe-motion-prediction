@@ -1,5 +1,13 @@
 # OE 船舶短时运动预测（使用 AIS 数据）
 
+## 效果展示
+
+<p align="center">
+  <img src="figures/fig3_vessel_motion_3d.png" width="49%" />
+  <img src="figures/fig1_p95_by_method.png" width="49%" />
+</p>
+
+
 基于 AIS 可观测信息开展客滚渡船短时运动预测与退化审计。
 
 ## 问题与方法
