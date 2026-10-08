@@ -1,0 +1,23 @@
+{
+  "version": "v0.5.0",
+  "files": {
+    ".gitattributes": "86672fc8176f8540a2c4ac1a4bea43cce0defdf44c3377b628a5f9afcdd99f7b",
+    ".github/workflows/verify.yml": "75dd4bb09860e9fb856d25f1f684b32ab38fe40d0ee1245ed1e5a1dd2f65f7fa",
+    "README.md": "cacdf8bcb1088efa00c786ef32473a810c91f8aa25f7d571a92dfbbcb1cd027e",
+    "RIGHTS.md": "06684470a631e1a5d92526bead33c643f8bc268e06269c4fe9ce1f5129211adc",
+    "data/cluster_metrics.csv": "ef3bf7ca6d8d89a66305f8fe882629ad124adbfe58661615c5ff744988c81e06",
+    "data/confirmation_summary.json": "a9b6591edce3b5d2b6c90100a38974e77d06c3fb877eec169c073d1b20939d4a",
+    "data/fault_summary.json": "1f7434b02ddbe5e6d93ff233c0480a358a37f7f897b126cea2d9ecd91a1af960",
+    "figures/fig1_p95_by_method.png": "16c1f905db095cfb87768c2d21fbdd8d7c194d02972844c3f1b14fba0a01f8d1",
+    "figures/fig2_pooled_p95_by_vessel.png": "9cbe9215dd187b27199eac732826c5074fa80d61521bd39b02175f3822d33445",
+    "figures/make_figures.py": "82920bd7f66ba4b55134a7b90507a13a1860767ac977aa954fde571528eaf79f",
+    "model/frozen_ridge.npz": "add7440291f23a7a9750e1b554a2ea66d6d50ea4bcc5f2c6324b84e2f1172035",
+    "requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "src/demo.py": "feb3217ff4129d1ed50c67582b50699605e90b9dcabb80326c7e427e51842e13",
+    "src/gru.py": "11f210664101bfeec4293dc315232e05498ad724112cb64610a94ac7a981857c",
+    "src/inference.py": "c8b7a28dc267a472dc63956e4d28657e374b43b9b5242d470e21e55d1554ca19",
+    "src/verify.py": "0f80be1a637acca7a3defa8a6f11a29fa6b7696b09f6d66e00802971fee4ee14",
+    "src/verify_gru_gradients.py": "50e6cbf48b0707d4481335c9fd34cf61eaf62da8fa1070028799e469d5f6f1d9",
+    "tests/test_oe_motion_prediction.py": "c6fbfc4d375661abe6a4a53e6ecd57a1b32c17c42b2964d166c38fcdbc6e1f14"
+  }
+}

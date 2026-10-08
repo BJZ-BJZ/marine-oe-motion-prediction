@@ -1,0 +1,212 @@
+{
+  "clean_rebuild": {
+    "anchors": 271,
+    "strict_rebuild_fraction": 0.974169741697417,
+    "relaxed_rebuild_fraction": 0.974169741697417,
+    "models": {
+      "A0": {
+        "coverage": 1.0,
+        "position_p95_m": 206.0336777093791,
+        "position_median_m": 30.16597534269874,
+        "harm_rate_vs_A0": 0.0,
+        "exact_a0_count": 271
+      },
+      "DIRECT_HARD": {
+        "coverage": 1.0,
+        "position_p95_m": 150.39963682820843,
+        "position_median_m": 28.173147674823063,
+        "harm_rate_vs_A0": 0.4095940959409594,
+        "exact_a0_count": 7
+      },
+      "GRU_HARD": {
+        "coverage": 1.0,
+        "position_p95_m": 175.11560529761724,
+        "position_median_m": 37.383038792158125,
+        "harm_rate_vs_A0": 0.5682656826568265,
+        "exact_a0_count": 7
+      },
+      "DIRECT_RELAXED_INTERP": {
+        "coverage": 0.974169741697417,
+        "position_p95_m": 150.72808886917616,
+        "position_median_m": 27.902527435172658,
+        "harm_rate_vs_A0": 0.42045454545454547,
+        "exact_a0_count": 0
+      }
+    }
+  },
+  "dropout_30s": {
+    "anchors": 271,
+    "strict_rebuild_fraction": 0.8265682656826568,
+    "relaxed_rebuild_fraction": 0.9520295202952029,
+    "models": {
+      "A0": {
+        "coverage": 1.0,
+        "position_p95_m": 206.0336777093791,
+        "position_median_m": 30.16597534269874,
+        "harm_rate_vs_A0": 0.0,
+        "exact_a0_count": 271
+      },
+      "DIRECT_HARD": {
+        "coverage": 1.0,
+        "position_p95_m": 172.28148198099404,
+        "position_median_m": 29.096879861864952,
+        "harm_rate_vs_A0": 0.34317343173431736,
+        "exact_a0_count": 47
+      },
+      "GRU_HARD": {
+        "coverage": 1.0,
+        "position_p95_m": 179.03005881993147,
+        "position_median_m": 36.918451727385154,
+        "harm_rate_vs_A0": 0.4907749077490775,
+        "exact_a0_count": 47
+      },
+      "DIRECT_RELAXED_INTERP": {
+        "coverage": 0.9520295202952029,
+        "position_p95_m": 153.1322930434297,
+        "position_median_m": 28.404809132673737,
+        "harm_rate_vs_A0": 0.40310077519379844,
+        "exact_a0_count": 0
+      }
+    }
+  },
+  "dropout_50s": {
+    "anchors": 271,
+    "strict_rebuild_fraction": 0.0,
+    "relaxed_rebuild_fraction": 0.915129151291513,
+    "models": {
+      "A0": {
+        "coverage": 1.0,
+        "position_p95_m": 206.0336777093791,
+        "position_median_m": 30.16597534269874,
+        "harm_rate_vs_A0": 0.0,
+        "exact_a0_count": 271
+      },
+      "DIRECT_HARD": {
+        "coverage": 1.0,
+        "position_p95_m": 206.0336777093791,
+        "position_median_m": 30.16597534269874,
+        "harm_rate_vs_A0": 0.0,
+        "exact_a0_count": 271
+      },
+      "GRU_HARD": {
+        "coverage": 1.0,
+        "position_p95_m": 206.0336777093791,
+        "position_median_m": 30.16597534269874,
+        "harm_rate_vs_A0": 0.0,
+        "exact_a0_count": 271
+      },
+      "DIRECT_RELAXED_INTERP": {
+        "coverage": 0.915129151291513,
+        "position_p95_m": 171.2130084791044,
+        "position_median_m": 26.47354259338838,
+        "harm_rate_vs_A0": 0.3790322580645161,
+        "exact_a0_count": 0
+      }
+    }
+  },
+  "heading_freeze_50s": {
+    "anchors": 271,
+    "strict_rebuild_fraction": 0.8523985239852399,
+    "relaxed_rebuild_fraction": 0.8523985239852399,
+    "models": {
+      "A0": {
+        "coverage": 1.0,
+        "position_p95_m": 206.0336777093791,
+        "position_median_m": 30.16597534269874,
+        "harm_rate_vs_A0": 0.0,
+        "exact_a0_count": 271
+      },
+      "DIRECT_HARD": {
+        "coverage": 1.0,
+        "position_p95_m": 178.3292909590047,
+        "position_median_m": 29.500760397330797,
+        "harm_rate_vs_A0": 0.3874538745387454,
+        "exact_a0_count": 40
+      },
+      "GRU_HARD": {
+        "coverage": 1.0,
+        "position_p95_m": 183.90508113224763,
+        "position_median_m": 38.81821983438958,
+        "harm_rate_vs_A0": 0.5129151291512916,
+        "exact_a0_count": 40
+      },
+      "DIRECT_RELAXED_INTERP": {
+        "coverage": 0.8523985239852399,
+        "position_p95_m": 148.12272516078144,
+        "position_median_m": 26.477822353341768,
+        "harm_rate_vs_A0": 0.45454545454545453,
+        "exact_a0_count": 0
+      }
+    }
+  },
+  "joint_fault": {
+    "anchors": 271,
+    "strict_rebuild_fraction": 0.7047970479704797,
+    "relaxed_rebuild_fraction": 0.8450184501845018,
+    "models": {
+      "A0": {
+        "coverage": 1.0,
+        "position_p95_m": 206.0336777093791,
+        "position_median_m": 30.16597534269874,
+        "harm_rate_vs_A0": 0.0,
+        "exact_a0_count": 271
+      },
+      "DIRECT_HARD": {
+        "coverage": 1.0,
+        "position_p95_m": 181.38237209571213,
+        "position_median_m": 31.126506171100473,
+        "harm_rate_vs_A0": 0.3210332103321033,
+        "exact_a0_count": 80
+      },
+      "GRU_HARD": {
+        "coverage": 1.0,
+        "position_p95_m": 184.57923524258683,
+        "position_median_m": 35.95757787420416,
+        "harm_rate_vs_A0": 0.44649446494464945,
+        "exact_a0_count": 80
+      },
+      "DIRECT_RELAXED_INTERP": {
+        "coverage": 0.8450184501845018,
+        "position_p95_m": 150.09724808384198,
+        "position_median_m": 26.834801015541494,
+        "harm_rate_vs_A0": 0.4410480349344978,
+        "exact_a0_count": 0
+      }
+    }
+  },
+  "timestamp_jitter_3s": {
+    "anchors": 271,
+    "strict_rebuild_fraction": 0.9446494464944649,
+    "relaxed_rebuild_fraction": 0.948339483394834,
+    "models": {
+      "A0": {
+        "coverage": 1.0,
+        "position_p95_m": 206.0336777093791,
+        "position_median_m": 30.16597534269874,
+        "harm_rate_vs_A0": 0.0,
+        "exact_a0_count": 271
+      },
+      "DIRECT_HARD": {
+        "coverage": 1.0,
+        "position_p95_m": 166.48529602230397,
+        "position_median_m": 28.315514500645374,
+        "harm_rate_vs_A0": 0.4095940959409594,
+        "exact_a0_count": 15
+      },
+      "GRU_HARD": {
+        "coverage": 1.0,
+        "position_p95_m": 189.9422645786531,
+        "position_median_m": 35.760046000214935,
+        "harm_rate_vs_A0": 0.5571955719557196,
+        "exact_a0_count": 15
+      },
+      "DIRECT_RELAXED_INTERP": {
+        "coverage": 0.948339483394834,
+        "position_p95_m": 153.16460919526293,
+        "position_median_m": 27.12921304142835,
+        "harm_rate_vs_A0": 0.43190661478599224,
+        "exact_a0_count": 0
+      }
+    }
+  }
+}

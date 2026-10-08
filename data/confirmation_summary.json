@@ -1,0 +1,250 @@
+{
+  "label": "MARCH_CONFIRMATION",
+  "rows": 78527,
+  "eligible_rows": 49091,
+  "clusters": 111,
+  "pooled": {
+    "ALL": {
+      "A0": {
+        "n": 49091,
+        "position_p95_m": 200.23347923286607,
+        "position_median_m": 36.57238125772004,
+        "heading_mae_deg": 4.446308595746816
+      },
+      "M2_CA_CTRA": {
+        "n": 49091,
+        "position_p95_m": 148.70794711524894,
+        "position_median_m": 44.849112346444194,
+        "heading_mae_deg": 17.446580698210557
+      },
+      "DIRECT_HARD": {
+        "n": 49091,
+        "position_p95_m": 146.55079166202802,
+        "position_median_m": 31.005762822091224,
+        "heading_mae_deg": 4.366378597667453
+      },
+      "GRU_HARD": {
+        "n": 49091,
+        "position_p95_m": 184.94339369722144,
+        "position_median_m": 41.774281017174914,
+        "heading_mae_deg": 4.852397629584059
+      }
+    },
+    "PRINS RICHARD": {
+      "A0": {
+        "n": 16232,
+        "position_p95_m": 189.50624242293387,
+        "position_median_m": 54.77240346928782,
+        "heading_mae_deg": 4.431985411535583
+      },
+      "M2_CA_CTRA": {
+        "n": 16232,
+        "position_p95_m": 156.2435805672819,
+        "position_median_m": 51.11657937203731,
+        "heading_mae_deg": 18.462894443853862
+      },
+      "DIRECT_HARD": {
+        "n": 16232,
+        "position_p95_m": 139.00447116143621,
+        "position_median_m": 36.312524685511974,
+        "heading_mae_deg": 4.479116246280005
+      },
+      "GRU_HARD": {
+        "n": 16232,
+        "position_p95_m": 186.7447284421241,
+        "position_median_m": 51.02619191161847,
+        "heading_mae_deg": 5.080189878300515
+      }
+    },
+    "PRINSESSE BENEDIKTE": {
+      "A0": {
+        "n": 13184,
+        "position_p95_m": 201.93412136507868,
+        "position_median_m": 52.02643814813911,
+        "heading_mae_deg": 4.249495574120892
+      },
+      "M2_CA_CTRA": {
+        "n": 13184,
+        "position_p95_m": 145.50159833154186,
+        "position_median_m": 45.50915696728687,
+        "heading_mae_deg": 17.8451280702299
+      },
+      "DIRECT_HARD": {
+        "n": 13184,
+        "position_p95_m": 144.07793127944848,
+        "position_median_m": 32.805365310168895,
+        "heading_mae_deg": 4.219267388274472
+      },
+      "GRU_HARD": {
+        "n": 13184,
+        "position_p95_m": 198.8404837090166,
+        "position_median_m": 48.3508262200097,
+        "heading_mae_deg": 5.080680711127283
+      }
+    },
+    "STENA DANICA": {
+      "A0": {
+        "n": 8002,
+        "position_p95_m": 199.83027015503393,
+        "position_median_m": 27.682258492881992,
+        "heading_mae_deg": 5.109588980023673
+      },
+      "M2_CA_CTRA": {
+        "n": 8002,
+        "position_p95_m": 132.8820243967136,
+        "position_median_m": 42.06284517267521,
+        "heading_mae_deg": 15.64066426225699
+      },
+      "DIRECT_HARD": {
+        "n": 8002,
+        "position_p95_m": 143.87907102383207,
+        "position_median_m": 30.924437795513967,
+        "heading_mae_deg": 4.760786960744101
+      },
+      "GRU_HARD": {
+        "n": 8002,
+        "position_p95_m": 166.45128100170572,
+        "position_median_m": 39.281226236025546,
+        "heading_mae_deg": 5.06864941380989
+      }
+    },
+    "STENA JUTLANDICA": {
+      "A0": {
+        "n": 11673,
+        "position_p95_m": 229.80675913655054,
+        "position_median_m": 18.292345295067474,
+        "heading_mae_deg": 4.233827414238159
+      },
+      "M2_CA_CTRA": {
+        "n": 11673,
+        "position_p95_m": 151.6532861253629,
+        "position_median_m": 39.81624304936117,
+        "heading_mae_deg": 16.82117934881581
+      },
+      "DIRECT_HARD": {
+        "n": 11673,
+        "position_p95_m": 168.88210778848477,
+        "position_median_m": 25.278841788808148,
+        "heading_mae_deg": 4.105391786309516
+      },
+      "GRU_HARD": {
+        "n": 11673,
+        "position_p95_m": 180.20583596291937,
+        "position_median_m": 29.25290736341878,
+        "heading_mae_deg": 4.129562479613489
+      }
+    }
+  },
+  "contrasts": {
+    "DIRECT_HARD_minus_A0": {
+      "aggregate": {
+        "clusters": 111,
+        "mean_difference_m": -54.57789719877445,
+        "ci95_low_m": -57.79584747968329,
+        "ci95_high_m": -51.006653802214664
+      },
+      "by_route": {
+        "FREDERIKSHAVN_GOTHENBURG": {
+          "clusters": 86,
+          "mean_difference_m": -56.248484891358984,
+          "ci95_low_m": -59.49168704337802,
+          "ci95_high_m": -52.87821633359852
+        },
+        "RODBY_PUTTGARDEN": {
+          "clusters": 25,
+          "mean_difference_m": -48.8310755362836,
+          "ci95_low_m": -55.670958878372396,
+          "ci95_high_m": -37.9782259925663
+        }
+      }
+    },
+    "GRU_HARD_minus_A0": {
+      "aggregate": {
+        "clusters": 111,
+        "mean_difference_m": -28.8352418817871,
+        "ci95_low_m": -34.33380814763331,
+        "ci95_high_m": -22.37248636191566
+      },
+      "by_route": {
+        "FREDERIKSHAVN_GOTHENBURG": {
+          "clusters": 86,
+          "mean_difference_m": -38.968060956084805,
+          "ci95_low_m": -42.77888026496061,
+          "ci95_high_m": -35.06041675582935
+        },
+        "RODBY_PUTTGARDEN": {
+          "clusters": 25,
+          "mean_difference_m": 6.021655733797022,
+          "ci95_low_m": -4.348842215827104,
+          "ci95_high_m": 24.356045611129662
+        }
+      }
+    },
+    "GRU_HARD_minus_DIRECT_HARD": {
+      "aggregate": {
+        "clusters": 111,
+        "mean_difference_m": 25.742655316987346,
+        "ci95_low_m": 21.590708108203,
+        "ci95_high_m": 30.179534219196977
+      },
+      "by_route": {
+        "FREDERIKSHAVN_GOTHENBURG": {
+          "clusters": 86,
+          "mean_difference_m": 17.28042393527419,
+          "ci95_low_m": 14.042329925162443,
+          "ci95_high_m": 20.724122652424988
+        },
+        "RODBY_PUTTGARDEN": {
+          "clusters": 25,
+          "mean_difference_m": 54.852731270080625,
+          "ci95_low_m": 48.59494997250853,
+          "ci95_high_m": 63.781266995447
+        }
+      }
+    },
+    "M2_CA_CTRA_minus_A0": {
+      "aggregate": {
+        "clusters": 111,
+        "mean_difference_m": -60.64444507963878,
+        "ci95_low_m": -65.53519591026503,
+        "ci95_high_m": -55.753377096670924
+      },
+      "by_route": {
+        "FREDERIKSHAVN_GOTHENBURG": {
+          "clusters": 86,
+          "mean_difference_m": -66.65485173737797,
+          "ci95_low_m": -71.73028345364908,
+          "ci95_high_m": -61.524140921480594
+        },
+        "RODBY_PUTTGARDEN": {
+          "clusters": 25,
+          "mean_difference_m": -39.96864617701599,
+          "ci95_low_m": -47.62967821392496,
+          "ci95_high_m": -31.68472833978281
+        }
+      }
+    },
+    "DIRECT_HARD_minus_M2_CA_CTRA": {
+      "aggregate": {
+        "clusters": 111,
+        "mean_difference_m": 6.06654788086434,
+        "ci95_low_m": 2.619153473028441,
+        "ci95_high_m": 9.481138120322452
+      },
+      "by_route": {
+        "FREDERIKSHAVN_GOTHENBURG": {
+          "clusters": 86,
+          "mean_difference_m": 10.406366846018976,
+          "ci95_low_m": 7.223814293353744,
+          "ci95_high_m": 13.634814595929164
+        },
+        "RODBY_PUTTGARDEN": {
+          "clusters": 25,
+          "mean_difference_m": -8.862429359267608,
+          "ci95_low_m": -16.115216174024436,
+          "ci95_high_m": -1.1023041682110732
+        }
+      }
+    }
+  }
+}
