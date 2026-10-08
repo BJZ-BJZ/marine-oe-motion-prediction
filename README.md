@@ -50,7 +50,3 @@ Regenerate with `python figures/make_figures.py` (needs `matplotlib`, `pandas`, 
 ![Ro-ro vessel motion 3D schematic](figures/fig3_vessel_motion_3d.png)
 
 Schematic illustration rendered in Python (matplotlib) - not ANSYS/Fluent/STAR-CCM+ output. Regenerate with `python figures/make_3d_schematic.py` (needs `matplotlib`, `numpy`). Heave / pitch / roll are the motion components whose statistics this project predicts from AIS observables.
-
-![Innovation: frozen ridge inference from AIS observables improves P95 position error over baseline (111 segments).](figures/fig4_contrast_forest.png)
-
-*Innovation: frozen ridge inference from AIS observables improves P95 position error over baseline (111 segments). Regenerate with `python figures/make_innovation_figure.py`.*
