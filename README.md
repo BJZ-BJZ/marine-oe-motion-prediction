@@ -36,3 +36,9 @@
 ![Pooled P95 by vessel](figures/fig2_pooled_p95_by_vessel.png)
 
 Regenerate with `python figures/make_figures.py` (needs `matplotlib`, `pandas`, `numpy`).
+
+### 3D schematic illustration
+
+![Ro-ro vessel motion 3D schematic](figures/fig3_vessel_motion_3d.png)
+
+Schematic illustration rendered in Python (matplotlib) - not ANSYS/Fluent/STAR-CCM+ output. Regenerate with `python figures/make_3d_schematic.py` (needs `matplotlib`, `numpy`). Heave / pitch / roll are the motion components whose statistics this project predicts from AIS observables.
